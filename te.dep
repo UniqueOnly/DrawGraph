@@ -1,0 +1,49 @@
+# Microsoft Developer Studio Generated Dependency File, included by te.mak
+
+.\aaa.cpp : \
+	".\aaa.h"\
+	".\instrucments.h"\
+	".\te.h"\
+	
+
+.\instrucments.cpp : \
+	".\instrucments.h"\
+	".\te.h"\
+	
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\te.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\visual+c+++6[1].0£¨Ö§³Öwin7£©\microsoft visual studio\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	
+
+.\te.cpp : \
+	".\aaa.h"\
+	".\MainFrm.h"\
+	".\te.h"\
+	".\teDoc.h"\
+	".\teView.h"\
+	
+
+.\te.rc : \
+	".\res\te.ico"\
+	".\res\te.rc2"\
+	".\res\teDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\teDoc.cpp : \
+	".\te.h"\
+	".\teDoc.h"\
+	
+
+.\teView.cpp : \
+	".\aaa.h"\
+	".\te.h"\
+	".\teDoc.h"\
+	".\teView.h"\
+	

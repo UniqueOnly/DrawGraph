@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: te - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/绘制多边形 v2.1 By 王云.res" /d "_DEBUG" "F:\VS2012_ULT\Projects\C++\Triangle v2.1\te.rc"" 
+Creating temporary file "C:\Users\云\AppData\Local\Temp\RSP5FCF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/te.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\VS2012_ULT\Projects\C++\Triangle v2.1\aaa.cpp"
+"F:\VS2012_ULT\Projects\C++\Triangle v2.1\alert.cpp"
+"F:\VS2012_ULT\Projects\C++\Triangle v2.1\instrucments.cpp"
+"F:\VS2012_ULT\Projects\C++\Triangle v2.1\MainFrm.cpp"
+"F:\VS2012_ULT\Projects\C++\Triangle v2.1\te.cpp"
+"F:\VS2012_ULT\Projects\C++\Triangle v2.1\teDoc.cpp"
+"F:\VS2012_ULT\Projects\C++\Triangle v2.1\teView.cpp"
+]
+Creating command line "cl.exe @"C:\Users\云\AppData\Local\Temp\RSP5FCF.tmp"" 
+Creating temporary file "C:\Users\云\AppData\Local\Temp\RSP5FD0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/te.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\VS2012_ULT\Projects\C++\Triangle v2.1\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\云\AppData\Local\Temp\RSP5FD0.tmp"" 
+Creating temporary file "C:\Users\云\AppData\Local\Temp\RSP5FD1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/绘制多边形 v2.1 By 王云.pdb" /debug /machine:I386 /out:"Debug/绘制多边形 v2.1 By 王云.exe" /pdbtype:sept 
+".\Debug\aaa.obj"
+".\Debug\alert.obj"
+".\Debug\instrucments.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\te.obj"
+".\Debug\teDoc.obj"
+".\Debug\teView.obj"
+".\Debug\绘制多边形 v2.1 By 王云.res"
+]
+Creating command line "link.exe @"C:\Users\云\AppData\Local\Temp\RSP5FD1.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+aaa.cpp
+alert.cpp
+instrucments.cpp
+MainFrm.cpp
+te.cpp
+teDoc.cpp
+teView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+绘制多边形 v2.1 By 王云.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

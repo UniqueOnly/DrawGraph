@@ -1,0 +1,41 @@
+﻿生成启动时间为 2014/8/11 13:31:46。
+     1>项目“F:\VS2012_ULT\Projects\C++\Triangle v2.1\te.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2012_ULT\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\te.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         F:\VS2012_ULT\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\te.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt aaa.cpp instrucments.cpp MainFrm.cpp te.cpp teDoc.cpp teView.cpp
+         teView.cpp
+         teDoc.cpp
+         te.cpp
+     1>f:\vs2012_ult\projects\c++\triangle v2.1\te.cpp(62): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+                 f:\vs2012_ult\vs2012\vc\atlmfc\include\afxwin.h(5364) : 参见“CWinApp::Enable3dControlsStatic”的声明
+         MainFrm.cpp
+         instrucments.cpp
+         aaa.cpp
+     1>f:\vs2012_ult\projects\c++\triangle v2.1\aaa.cpp(84): error C2668: “sqrt”: 对重载函数的调用不明确
+                 f:\vs2012_ult\vs2012\vc\include\math.h(588): 可能是“long double sqrt(long double)”
+                 f:\vs2012_ult\vs2012\vc\include\math.h(540): 或       “float sqrt(float)”
+                 f:\vs2012_ult\vs2012\vc\include\math.h(127): 或       “double sqrt(double)”
+                 尝试匹配参数列表“(int)”时
+     1>f:\vs2012_ult\projects\c++\triangle v2.1\aaa.cpp(85): error C2668: “sqrt”: 对重载函数的调用不明确
+                 f:\vs2012_ult\vs2012\vc\include\math.h(588): 可能是“long double sqrt(long double)”
+                 f:\vs2012_ult\vs2012\vc\include\math.h(540): 或       “float sqrt(float)”
+                 f:\vs2012_ult\vs2012\vc\include\math.h(127): 或       “double sqrt(double)”
+                 尝试匹配参数列表“(int)”时
+     1>f:\vs2012_ult\projects\c++\triangle v2.1\aaa.cpp(86): error C2668: “sqrt”: 对重载函数的调用不明确
+                 f:\vs2012_ult\vs2012\vc\include\math.h(588): 可能是“long double sqrt(long double)”
+                 f:\vs2012_ult\vs2012\vc\include\math.h(540): 或       “float sqrt(float)”
+                 f:\vs2012_ult\vs2012\vc\include\math.h(127): 或       “double sqrt(double)”
+                 尝试匹配参数列表“(int)”时
+     1>f:\vs2012_ult\projects\c++\triangle v2.1\aaa.cpp(88): error C2668: “fabs”: 对重载函数的调用不明确
+                 f:\vs2012_ult\vs2012\vc\include\math.h(564): 可能是“long double fabs(long double)”
+                 f:\vs2012_ult\vs2012\vc\include\math.h(516): 或       “float fabs(float)”
+                 f:\vs2012_ult\vs2012\vc\include\math.h(118): 或       “double fabs(double)”
+                 尝试匹配参数列表“(int)”时
+         正在生成代码...
+     1>已完成生成项目“F:\VS2012_ULT\Projects\C++\Triangle v2.1\te.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:01:17.91
